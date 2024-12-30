@@ -9,7 +9,7 @@ namespace backEndConnect.context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("server=localhost;" +
-                "database=northwind" +
+                "database=northwind;" +
                 "Trusted_connection=true;" +
                 "TrustServerCertificate=True; ");
 
